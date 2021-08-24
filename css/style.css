@@ -523,3 +523,68 @@ body {
     width: 15.25em;
   }
 }
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.timer {
+    padding: 40px 0;
+}
+
+.timer .main .content .item {
+    width: 100%;
+    min-height: 230px;
+    position: relative;
+}
+
+.timer .main .content .item h5 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #2e2e2e;
+    line-height: 100px;
+    margin-left: 10px;
+}
+
+.timer .main .content .item .child {
+    position: relative;
+    border-left: 1px solid #E5E5E5;
+    height: 70px;
+    margin-left: 70px;
+}
+
+.timer .main .content .item .child span {
+    position: absolute;
+    top: -18px;
+    left: -42px;
+    font-size: 14px;
+    font-weight: 300;
+    /*color: #999999;*/
+    line-height: 36px;
+}
+
+.timer .main .content .item .child p {
+    position: absolute;
+    left: 138px;
+    top: -10px;
+    font-size: 14px;
+    font-weight: 400;
+    /*color: #666666;*/
+    line-height: 36px;
+}
+
+.timer .main .content .item .child::after {
+    content: '';
+    content: '';
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: #1260e9;
+    border-radius: 50%;
+    position: absolute;
+    left: -7px;
+    top: -5px;
+}
